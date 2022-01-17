@@ -8,9 +8,9 @@ def clean_number(a):
         if i=='$' or i==',':
             pass
         elif i=='B':
-            new_a = float(new_a)*100
+            new_a = float(new_a)
         elif i=='M':
-            new_a = float(new_a)*1/10
+            new_a = float(new_a)*1/1000
         else:
             new_a+= i
     return new_a
